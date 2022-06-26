@@ -1,0 +1,60 @@
+/*Change Background to #9e31de (shade of purple)*/
+/* set image none*/
+p {
+    display: none;
+}
+
+.PlaybuttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Playbutton{
+    width: 100px;
+    height: 100px;
+}
+/*insert border 5px color green*/
+.PlaybuttonandImage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text1 {
+    border: 5px solid green;
+    height:20px;
+}
+
+.boulder {
+    display: none;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+body {
+    background: #9e31de;
+
+}
+
+/*add div for h1 tag to flex center*/
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.secret-door{
+    width: 30%;
+    display:none;
+}
+
+.Treasure-Chest{
+    Width: 30%;
+    display: none;
+}
+
+.OpenTreasure-Chest{
+    display: none;
+}
